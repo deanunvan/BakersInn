@@ -534,3 +534,340 @@
         margin-left: 15px;
       }
   }
+
+/* ----------------------book------------------------------------------------ */
+
+#book {
+  padding: 20px;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.book-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.book-content-1 {
+  flex: 1;
+}
+
+.book-content-1 h1 {
+  font-size: 24px;
+  color: #29235c;
+  margin-bottom: 10px;
+}
+
+.book-content-1 p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.book-btn {
+  background-color: #b99a4c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-btn:hover {
+  background-color: #a0863f;
+}
+
+.book-content-2 {
+  height: 500px;
+  width: 500px;
+  background-image: url(../images/Rectangle\ 32.png);
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 500px) {
+  .book-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .book-content-1 {
+    text-align: center;
+  }
+
+  .book-content-2 {
+    text-align: center;
+  }
+
+  .book-content-2{
+    height: 400px;
+    width: 400px;
+  }
+}
+
+@media (max-width: 450px) {
+  .book-content-2{
+    height: 350px;
+    width: 350px;
+  }
+}
+
+@media (max-width: 400px) {
+  .book-content-2{
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 350px) {
+  .book-content-2{
+    height: 250px;
+    width: 250px;
+  }
+}
+
+@media (max-width: 300px) {
+  .book-content-2{
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .book-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .book-content-1 {
+    text-align: center;
+  }
+
+  .book-content-2 {
+    text-align: center;
+  }
+}
+
+/* ----------------------request---------------- */
+
+
+#request {
+  padding: 20px;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.request-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.request-content-1 {
+  flex: 1;
+}
+
+.request-content-1 h1 {
+  font-size: 24px;
+  color: #29235c;
+  margin-bottom: 10px;
+}
+
+.request-content-1 p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.request-btn {
+  background-color: #b99a4c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.request-btn:hover {
+  background-color: #a0863f;
+}
+
+.request-content-2 {
+  height: 500px;
+  width: 500px;
+  background-image: url(../images/Rectangle\ 31.png);
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 500px) {
+  .request-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .request-content-1 {
+    text-align: center;
+  }
+
+  .request-content-2 {
+    text-align: center;
+  }
+
+  .request-content-2{
+    height: 400px;
+    width: 400px;
+  }
+}
+
+@media (max-width: 450px) {
+  .request-content-2{
+    height: 350px;
+    width: 350px;
+  }
+}
+
+@media (max-width: 400px) {
+  .request-content-2{
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 350px) {
+  .request-content-2{
+    height: 250px;
+    width: 250px;
+  }
+}
+
+@media (max-width: 300px) {
+  .request-content-2{
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .request-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .request-content-1 {
+    text-align: center;
+  }
+
+  .request-content-2 {
+    text-align: center;
+  }
+}
+
+/* -----------------------------kidscorner------------------------------------------------ */
+
+#kids-corner {
+  color: rgb(255, 255, 255);
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  padding: 20px 20px;
+}
+
+.kids-corner-content {
+  text-align: center;
+  display: flex;
+  background-color: #29235c;
+  width: 100%;
+  gap: 150px;
+  border-radius: 5px;
+  flex-direction: row;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.185);
+}
+
+.kids-corner-1 {
+  height: 650px;
+  width: 540px;
+  background-image: url(../images/toppng\ 1.png);
+  background-size: cover;
+  background-position: center;
+  /* margin-left: 80px; */
+}
+
+.kids-corner-2 {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.kids-corner-content h1 {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.kids-corner-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
+.play-games-btn {
+  background-color: #ff5e5e;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.play-games-btn:hover {
+  background-color: #e04e4e;
+}
+
+/* Responsive Design for devices 500px or smaller */
+@media (max-width: 500px) {
+  .kids-corner-content {
+    flex-direction: column; /* Stack elements vertically */
+    gap: 20px; /* Reduce spacing */
+  }
+
+  .kids-corner-1 {
+    height: 550px; 
+    margin-left: 0; 
+  }
+
+  .kids-corner-2 {
+    margin-top: 20px; /* Reduce top margin */
+  }
+
+  .kids-corner-content h1 {
+    font-size: 28px; /* Smaller font size for titles */
+  }
+
+  .kids-corner-content p {
+    font-size: 14px; /* Adjust paragraph size */
+  }
+
+  .play-games-btn {
+    padding: 8px 16px; /* Smaller button padding */
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+}
