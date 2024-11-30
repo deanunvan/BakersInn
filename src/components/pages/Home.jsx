@@ -129,20 +129,34 @@ export const Home = () => {
 {/* --------------------------------kids-corner---------------------------------------------------- */}
 
 
-<div id="kids-corner">
-    <div className="kids-corner-content reveal">
-      <div className="kids-corner-1"></div>
+      <div id="kids-corner">
+          <div className="kids-corner-content reveal">
+            <div className="kids-corner-1">
+              <div></div>
+            </div>
 
-      <div className="kids-corner-2">
-      <h1>Kids Corner</h1>
-        <p>
-          Let your children join the fun. Explore a place <br /> with exciting games
-          and the top winners stand a <br /> chance to win exciting monthly prizes!
-        </p>
-        <button className="play-games-btn">PLAY GAMES</button>
+            <div className="kids-corner-2">
+            <h1>Kids Corner</h1>
+              <p>
+                Let your children join the fun. Explore a place <br /> with exciting games
+                and the top winners stand a <br /> chance to win exciting monthly prizes!
+              </p>
+              <button className="play-games-btn">PLAY GAMES</button>
+            </div>
+            </div>
       </div>
+
+
+{/* -------------------------------recipes------------------------------- */}
+
+    <div id="recipes">
+      <div className="recipes-container reveal">
+        <div className="recipes-content">
+        <h1>Baker's Recipes</h1>
+
+        </div>
       </div>
-</div>
+    </div>
 
     </div>
   );
