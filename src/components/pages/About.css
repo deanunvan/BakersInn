@@ -1,5 +1,5 @@
 #about{
-    /* padding-top: 130px; */
+    padding-top: 130px;
 }
 
 .home-of-about{
@@ -12,7 +12,6 @@
     display: flex;
     align-items: flex-end;
     padding: 2rem;
-    margin-top: 130px;
 }
 
 .home-of-about h1 {
