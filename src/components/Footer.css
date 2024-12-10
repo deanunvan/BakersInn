@@ -1,0 +1,225 @@
+.footer {
+    background-color: #4a3c7a;
+    color: #ffffff;
+    padding: 20px 0;
+  }
+  
+  .footer-top {
+    padding: 20px 0;
+    border-bottom: 1px solid #ffffff;
+  }
+  
+  .footer-logo i {
+    font-size: 40px;
+    color: #d7b787;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
+  }
+  
+  .footer-section {
+    flex: 1 1 200px;
+    margin: 10px;
+  }
+
+  .footer-section p{
+    margin-left: 30px;
+  }
+
+  .footer-links{
+    margin-left: 30px;
+  }
+  
+  .footer-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 30px;
+  }
+  
+  .footer-images {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .feed-1 {
+    width: 80px;
+    height: 80px;
+    background-image: url(./images/Rectangle\ 688.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .feed-2 {
+    width: 80px;
+    height: 80px;
+    background-image: url(./images/Rectangle\ 689.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .feed-3 {
+    width: 80px;
+    height: 80px;
+    background-image: url(./images/Rectangle\ 690.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .footer-socials{
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+  
+  .footer-socials i {
+    font-size: 20px;
+    margin: 0 5px;
+  }
+  
+  .footer-section p {
+    margin-bottom: 8px;
+    line-height: 1.6;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #ffffff;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+  .footer-bottom .highlight {
+    color: #d7b787;
+  }
+  
+  .footer-bottom p{
+    display: flex;
+    gap: 10px;
+  }
+
+  .innscor-logo{
+    width: 80px;
+    height: 40px;
+    background-image: url(./images/inscor_logo@2x\ 1.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+  .footer-section {
+    flex: 1 1 180px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .footer-content {
+    justify-content: flex-start;
+    padding: 20px;
+  }
+  
+  .footer-section {
+    flex: 1 1 250px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer-section {
+    flex: 1 1 200px;
+  }
+
+  .footer-images {
+    flex-wrap: wrap;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-section {
+    margin: 20px 0;
+    flex: 1 1 100%;
+  }
+
+  .footer-title,
+  .footer-section p,
+  .footer-links,
+  .footer-socials {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer-images {
+    gap: 5px;
+  }
+
+  .feed-1,
+  .feed-2,
+  .feed-3 {
+    width: 60px;
+    height: 60px;
+  }
+
+  .innscor-logo {
+    width: 60px;
+    height: 30px;
+  }
+
+  .footer-logo i {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .footer {
+    padding: 10px 0;
+  }
+
+  .footer-title,
+  .footer-section p,
+  .footer-links,
+  .footer-socials {
+    margin-left: 10px;
+  }
+
+  .feed-1,
+  .feed-2,
+  .feed-3 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .footer-bottom {
+    padding: 10px 15px;
+  }
+
+  .footer-bottom p {
+    font-size: 14px;
+    gap: 5px;
+  }
+}

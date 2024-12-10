@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import "./Pages.css";
+import "./Home.css";
 
 export const Home = () => {
   const [activeTab, setActiveTab] = useState("kids");
@@ -26,6 +26,27 @@ export const Home = () => {
   const handleTabClick = (tab) => {
     setActiveTab(tab);
   };
+
+
+
+      const [email, setEmail] = useState("");
+
+    const handleSubmit = (event) => {
+      event.preventDefault();
+      if (email) {
+        alert(`Thank you for subscribing with: ${email}`);
+        setEmail(""); // Clear the input field
+        // Optionally send the email to a backend server:
+        // fetch('/subscribe', {
+        //   method: 'POST',
+        //   headers: { 'Content-Type': 'application/json' },
+        //   body: JSON.stringify({ email }),
+        // });
+      } else {
+        alert("Please enter a valid email address.");
+      }
+    };
+
 
   return (
     <div>
@@ -204,10 +225,138 @@ export const Home = () => {
         </div>
       </div>
 
+{/* ----------------------------------------submit---------------------------------------- */}
+
+      <div id="submit" style={{ padding: "20px 0", backgroundColor: "#d7b787" }}>
+        <div className="submit-container-1 reveal">
+          <h2>
+            Get Notified About <br />
+             Promotions We Offer
+          </h2>
+          <form
+            onSubmit={handleSubmit}
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              gap: "10px",
+            }}
+          >
+            <input
+              type="email"
+              placeholder="your email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              style={{
+                padding: "10px",
+                fontSize: "16px",
+                border: "1px solid #ccc",
+                borderRadius: "5px",
+                width: "300px",
+                outline: "none",
+              }}
+              required
+            />
+            <button
+              type="submit"
+              style={{
+                padding: "10px 20px",
+                fontSize: "16px",
+                backgroundColor: "#4a3c7a",
+                color: "white",
+                border: "none",
+                borderRadius: "5px",
+                cursor: "pointer",
+              }}
+            >
+              SUBMIT
+            </button>
+          </form>
+        </div>
+
+        <div className="submit-container-2 reveal">
+          <div className="brd1"></div>
+          <div className="brd2"></div>
+          <div className="brd3"></div>
+        </div>
+      </div>
+
+
 
     </div>
   );
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 const RecipeCard = () => (
   <div className="recipe-card">

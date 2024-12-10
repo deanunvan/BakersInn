@@ -8,6 +8,7 @@
     position: fixed;
     width: 100%;
     z-index: 1000;
+    transition: all 0.3s ease;
   }
   
   .navbar-logo img {
@@ -197,5 +198,23 @@
       padding: 10px;
       font-size: 16px;
     }
+  }
+  
+  .navbar.scrolled {
+    background: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 2px 7px;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-links a.active {
+    color:  #1f1f7b;
+    font-weight: bold;
+    /* Add any other styles you want for active links */
+  }
+  
+  .contact-button.active {
+    /* Special styling for active contact button if needed */
+    background-color:  #1f1f7b;
   }
   

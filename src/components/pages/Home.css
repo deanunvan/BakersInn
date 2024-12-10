@@ -1013,6 +1013,8 @@
 
 /* Responsive Design for 500px or Smaller */
 @media (max-width: 500px) {
+
+
   .recipes-tabs {
     flex-direction: column;
     gap: 10px;
@@ -1028,4 +1030,132 @@
   }
 }
 
+/* -------------submit-------------------------------- */
 
+#submit {
+  background: #B2904C;
+  padding: 20px;
+  margin: 85px 85px;
+  border-radius: 5px;
+  display: flex;
+  gap: 20px;
+  position: relative; /* Set relative positioning for the parent */
+  z-index: 1; /* Ensure this section stays on top of other content */
+}
+
+.submit-container-1 {
+  padding-left: 50px;
+  z-index: 2; /* Keep text and form above overlapping images */
+}
+
+#submit h2 {
+  color: #ffffff;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+#submit form {
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  background: #C6A460;
+  width: 100%;
+  height: 50px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+#submit input[type="email"] {
+  border: 1px solid #C6A460;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+  background: #C6A460;
+  border: none;
+}
+
+#submit button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4a3c7a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submit button:hover {
+  background-color: #3b2f63;
+}
+
+.submit-container-2 {
+  display: flex;
+  position: relative; /* Ensure overlap positioning works */
+  z-index: 1; /* Default layer */
+  gap: 100px;
+  margin-left: 80px;
+}
+
+.brd1 {
+  background-image: url(../images/Rectangle\ 8.png);
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 300px;
+}
+
+.brd2 {
+  background-image: url(../images/Rectangle\ 5.png);
+  background-position: center;
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  position: absolute; /* Position absolutely to overlap */
+  top: -50px; /* Adjust this to control vertical overlap */
+  left: 50%; /* Align horizontally */
+  transform: translateX(-50%); /* Center `brd2` in its container */
+  z-index: 0; /* Keep it behind the text and form */
+}
+
+.brd3 {
+  background-image: url(../images/Rectangle\ 7.png);
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 300px;
+}
+
+@media (max-width: 500px){
+  #submit{
+    flex-wrap: wrap;
+  }
+
+  #submit h2{
+    font-size: 20px;
+  }
+
+  #submit form{
+    width: 200px;
+    flex-wrap: wrap
+  }
+
+  #submit button{
+    padding: 5px 10px;
+  }
+
+  .submit-container-2{
+    margin-left: 0;
+    margin-top: 80px;
+  }
+
+  .brd1, .brd3{
+    width: 100px;
+    height: 150px;
+  }
+
+  .brd2{
+    width: 200px;
+    height: 200px;
+  }
+}
