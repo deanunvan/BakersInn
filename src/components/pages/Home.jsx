@@ -61,7 +61,7 @@ export const Home = () => {
               The freshest sandwiches you can make are <br /> with Baker's Inn
               soft white loaf.
             </p>
-            <Link to='/about'><button className="read-more-btn">READ MORE</button></Link>
+            <a href="#about"><button className="read-more-btn">READ MORE</button></a>
           </div>
           <div className="home-images reveal"></div>
         </div>
@@ -113,7 +113,7 @@ export const Home = () => {
             </div>
           </div>
         </div>
-        <button className="view-all-button">VIEW COMPLETE RANGE</button>
+        <Link to="/products"><button className="view-all-button">VIEW COMPLETE RANGE</button></Link>
       </div>
 
       {/* -----------------------------------book------------------------------------------------ */}
