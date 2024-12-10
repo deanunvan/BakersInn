@@ -61,7 +61,7 @@ export const Home = () => {
               The freshest sandwiches you can make are <br /> with Baker's Inn
               soft white loaf.
             </p>
-            <button className="read-more-btn">READ MORE</button>
+            <Link to='/about'><button className="read-more-btn">READ MORE</button></Link>
           </div>
           <div className="home-images reveal"></div>
         </div>
@@ -82,7 +82,7 @@ export const Home = () => {
                 produced about 30,000 loaves a day. We now aim to provide a
                 nourishing, convenient, and accessible answer to hunger’s call.
               </p>
-              <button className="read-more-btn">READ MORE</button>
+              <Link to='/about'><button className="read-more-btn">READ MORE</button></Link>
             </div>
           </div>
           <div className="about-images">

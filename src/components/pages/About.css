@@ -1,5 +1,5 @@
 #about{
-    padding-top: 130px;
+    /* padding-top: 130px; */
 }
 
 .home-of-about{
@@ -12,6 +12,7 @@
     display: flex;
     align-items: flex-end;
     padding: 2rem;
+    margin-top: 130px;
 }
 
 .home-of-about h1 {
@@ -119,6 +120,38 @@
     height: 200px;
     width: 300px;
 }
+
+.respect-img{
+    background-image: url(../images/Rectangle\ 24\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+}
+
+.integrity-img{
+    background-image: url(../images/Rectangle\ 26\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+}
+
+.commitment-img{
+    background-image: url(../images/Rectangle\ 349\.png);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+}
+
+.excellence-img{
+    background-image: url(../images/Rectangle\ 350\.png);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+}
   
   .core-value h2 {
     margin: 1rem 0;
@@ -162,6 +195,78 @@
   
     .core-value p {
       font-size: 0.85rem;
+    }
+  }
+  
+
+  /* Promise Section */
+.promise-section {
+    margin: 100px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .promise-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .CEO{
+    background-image: url(../images/Rectangle\ 31\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 450px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .promise-content {
+    max-width: 700px;
+  }
+  
+  .promise-content h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .promise-content p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  .promise-content h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .promise-container {
+      flex-direction: column;
+    }
+  
+    .promise-content h1 {
+      font-size: 2rem;
+    }
+  
+    .promise-content p {
+      font-size: 0.9rem;
+    }
+  
+    .promise-image img {
+      max-width: 100%;
+    }
+
+    .CEO{
+        width: 300px;
     }
   }
   
